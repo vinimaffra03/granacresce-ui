@@ -13,6 +13,8 @@ function App() {
 
         <SimuladorJurosCompostosBootstrap />
 
+        <h1 className="text-center py-5">PROJETO EM DESENVOLVIMENTO ...</h1>
+
         {/* footer 
         <h1 className="text-center">
           Passo a passo para usar a calculadora de juros compostos
