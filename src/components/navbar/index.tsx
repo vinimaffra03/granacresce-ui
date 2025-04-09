@@ -23,7 +23,14 @@ function BasicExample() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">Notícias</Nav.Link>
+            <Nav.Link href="#link">
+              <a
+                href="https://www.infomoney.com.br/"
+                style={{ textDecoration: "none", color : "#6e6868" }}
+              >
+                Notícias
+              </a>
+            </Nav.Link>
             <NavDropdown title="Mercados" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">
                 <a
