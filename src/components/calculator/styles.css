@@ -1,0 +1,21 @@
+/* styles.css */
+/* REMOVENDO TODAS AS DECORACOES DE ANCORAS */
+
+.no-bootstrap-link {
+  color: inherit !important; /* Inherit text color from parent */
+  text-decoration: none !important; /* Remove underlines */
+}
+
+.no-bootstrap-link:hover {
+  text-decoration: none !important; /* Remove underline on hover as well */
+  /* Add any custom hover styles you want here */
+} /* primeiro e ultimo item da lista */
+
+.dropdown-item a {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+.dropdown-item a:hover {
+  text-decoration: none !important;
+} /* removendo decoracoes dos itens do meio do dropdown */
