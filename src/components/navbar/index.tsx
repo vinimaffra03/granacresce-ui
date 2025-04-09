@@ -9,7 +9,7 @@ import "./styles.css";
 function BasicExample() {
   return (
     // Navbar principal da aplicação
-    <Navbar expand="lg" className="bg-body-tertiary p-0">
+    <Navbar expand="md" className="col-sm bg-body-tertiary p-0">
       <Container fluid className="px-0">
         <img
           // logo principal da navbar
@@ -26,7 +26,7 @@ function BasicExample() {
             <Nav.Link href="#link">
               <a
                 href="https://www.infomoney.com.br/"
-                style={{ textDecoration: "none", color : "#6e6868" }}
+                style={{ textDecoration: "none", color: "#6e6868" }}
               >
                 Notícias
               </a>
